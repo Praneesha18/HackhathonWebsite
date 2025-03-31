@@ -126,7 +126,7 @@ export default function Navbar({ toggleTheme, currentTheme }) {
           },
         }}
       >
-        Virtuora
+        Build Bharat
       </Typography>
     );
   };

@@ -72,7 +72,7 @@ export default function Footer() {
                   pb: 1
                 }}
               >
-                Virtuora
+                Build Bharat
               </Typography>
               <Box
                 sx={{
@@ -94,7 +94,7 @@ export default function Footer() {
                 color: 'text.secondary'
               }}
             >
-              Transforming virtual experiences with cutting-edge technology and innovative solutions.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, cumque?
             </Typography>
             
             <Stack spacing={2}>
@@ -121,7 +121,7 @@ export default function Footer() {
                 >
                   <EmailIcon fontSize="small" color="primary" />
                 </Box>
-                <Typography variant="body2">contact@virtuora.com</Typography>
+                <Typography variant="body2">contact@buildbharat.com</Typography>
               </Box>
               
               <Box
@@ -311,7 +311,7 @@ export default function Footer() {
             variant="body2"
             sx={{ color: 'text.secondary', textAlign: { xs: 'center', sm: 'left' } }}
           >
-            © {currentYear} <Box component="span" sx={{ color: 'primary.main', fontWeight: 'bold' }}>Virtuora</Box>. All rights reserved.
+            © {currentYear} <Box component="span" sx={{ color: 'primary.main', fontWeight: 'bold' }}>Build Bharat</Box>. All rights reserved.
           </Typography>
           
         </Box>
