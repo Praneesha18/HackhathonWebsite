@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './Components/Navbar';
+import Section1 from './Components/Section1';
+import Section3 from './Components/Section3';
+import Footer from './Components/Footer';
+import Section2 from './Components/Section2';
+
+//1c1c1c-darkblack
+//4a4a4a-charcoal
+//6d6d6d-gray
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <Navbar/>
+   <Section1/>
+   <Section2/>
+   <Section3/>
+   <Footer/>
+
+ 
+   </>
   );
 }
 
