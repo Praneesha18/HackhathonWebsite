@@ -12,7 +12,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
-  
+ 
   const navItems = [
     { label: 'About', href: '#about' },
     { label: 'Agenda', href: '#agenda' },
