@@ -314,22 +314,6 @@ export default function Footer() {
             © {currentYear} <Box component="span" sx={{ color: 'primary.main', fontWeight: 'bold' }}>Virtuora</Box>. All rights reserved.
           </Typography>
           
-          <Stack
-            direction="row"
-            spacing={3}
-            sx={{
-              color: 'text.secondary',
-              fontFamily: '"Poppins", sans-serif',
-              fontSize: '0.75rem'
-            }}
-          >
-            <Link href="#" sx={{ color: 'text.secondary', textDecoration: 'none', '&:hover': { color: 'primary.main' } }}>
-              Privacy Policy
-            </Link>
-            <Link href="#" sx={{ color: 'text.secondary', textDecoration: 'none', '&:hover': { color: 'primary.main' } }}>
-              Terms of Service
-            </Link>
-          </Stack>
         </Box>
       </Container>
     </Box>
