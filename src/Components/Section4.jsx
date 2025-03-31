@@ -14,6 +14,7 @@ const Section4 = () => {
       alignItems="flex-start"
       textAlign="justify"
       color="primary"
+      id="perks"
     >
       <Typography
         variant="h4"
