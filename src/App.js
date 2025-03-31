@@ -6,9 +6,11 @@ import Navbar from './Components/Navbar';
 import Section1 from './Components/Section1';
 import Section2 from './Components/Section2';
 import Section3 from './Components/Section3';
+import Section4 from './Components/Section4';
 import Footer from './Components/Footer';
 import createAppTheme from './theme';
 import Section4 from './Components/Section4';
+
 
 function App() {
   // State for managing theme mode, defaulting to 'dark'

@@ -177,7 +177,7 @@ export default function Navbar({ toggleTheme, currentTheme }) {
               py: 1.5,
               px: 2,
               borderRadius: 2,
-              bgcolor: activeLink === item.href 
+              bgcolor: activeLink === item.href
                 ? (currentTheme === 'dark' ? 'rgba(92, 107, 192, 0.2)' : 'rgba(26, 35, 126, 0.1)')
                 : 'transparent',
               color: activeLink === item.href 
