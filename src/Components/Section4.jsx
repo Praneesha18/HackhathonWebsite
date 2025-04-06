@@ -33,7 +33,7 @@ const Section4 = () => {
       <List component="ul" sx={{ marginTop: "10px", paddingLeft: 2 }}>
         {[
                    "1 Lakh cash prize pool for winning teams.",
-                   "Lunch and dinner on April 18th, and breakfast on April 19th will be provided.",
+                   "Lunch and dinner on April 16th, and breakfast,lunch on April 17th will be provided.",
                    "Refreshments will be available throughout the event.",
                    "Participation certificates for all.",
                    "Internship and job opportunities (including PPOs) at the discretion of partnering companies.",

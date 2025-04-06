@@ -56,8 +56,8 @@ const Section1 = ({ currentTheme }) => {
         textAlign="justify"
       >
         <Typography fontSize={16}>
-          A National-Level 24-Hour Hackathon Organized by the Department of ITCA
-          & CSSE and CODEIAM, this hackathon is your chance to showcase your
+          A National-Level Hackathon Organized by the Department of ITCA
+          & CSSE and CODEIAM, from 16th April 9.00 AM to 17th April 3.00PM. This hackathon is your chance to showcase your
           skills, work on innovative solutions, and compete with the best minds
           across the country.
         </Typography>
