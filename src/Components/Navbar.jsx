@@ -229,6 +229,7 @@ export default function Navbar({ toggleTheme, currentTheme }) {
           variant="contained"
           fullWidth
           startIcon={<HowToRegIcon />}
+          href='https://docs.google.com/forms/d/e/1FAIpQLSdM1uafKvhkxFMHHYW-i8ezhLIYeRrlVzad3SzL4HwQuKaAAg/viewform'
           sx={{ 
             py: 1.5,
             borderRadius: 2,
@@ -379,6 +380,7 @@ export default function Navbar({ toggleTheme, currentTheme }) {
 
                   <Button 
                     variant="contained" 
+                    href='https://docs.google.com/forms/d/e/1FAIpQLSdM1uafKvhkxFMHHYW-i8ezhLIYeRrlVzad3SzL4HwQuKaAAg/viewform'
                     startIcon={<HowToRegIcon />}
                     sx={{ 
                       ml: 2,

@@ -3,6 +3,7 @@ import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import GroupsIcon from "@mui/icons-material/Groups";
 import HowToRegIcon from "@mui/icons-material/HowToReg";
 import AccessAlarmIcon from "@mui/icons-material/AccessAlarm";
+import BusinessIcon from '@mui/icons-material/Business';
 import React from "react";
 
 const Section1 = ({ currentTheme }) => {
@@ -66,9 +67,9 @@ const Section1 = ({ currentTheme }) => {
           {[
             {
               icon: <CalendarMonthIcon color="primary" />,
-              text: "Apr 18th to 19th",
+              text: "Apr 16th to 17th",
             },
-            { icon: <AccessAlarmIcon color="primary" />, text: "9 AM to 9 AM" },
+            { icon: <AccessAlarmIcon color="primary" />, text: "9 AM to 3 PM" },
             {
               icon: <GroupsIcon color="primary" />,
               text: "Team size: 3-5 members",
@@ -77,6 +78,10 @@ const Section1 = ({ currentTheme }) => {
               icon: <HowToRegIcon color="primary" />,
               text: "Registration Fee: ₹399 per person",
             },
+            {
+              icon:<BusinessIcon color="primary"/>,
+              text:'Algorithm Block,Andhra University College of Engineering,Andhra University,Visakhapatnam-530003'
+            }
           ].map((item, index) => (
             <Box key={index} display="flex" alignItems="center" gap={1}>
               <Box
@@ -109,6 +114,7 @@ const Section1 = ({ currentTheme }) => {
         </Box>
         <Button
           variant="contained"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdM1uafKvhkxFMHHYW-i8ezhLIYeRrlVzad3SzL4HwQuKaAAg/viewform"
           sx={{ 
             p: 5,
             py:1,
