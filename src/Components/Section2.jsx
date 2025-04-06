@@ -13,6 +13,7 @@ const Section2 = ({ colorTheme }) => {
       alignItems="flex-start"
       textAlign="justify"
       color="primary"
+      id="agenda"
     >
       <Typography
         variant="h4"

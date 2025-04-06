@@ -20,6 +20,7 @@ const Section1 = ({ currentTheme }) => {
         alignItems="center"
         textAlign="center"
         color="text.primary"
+        id="about"
       >
         <Typography
           variant="h5"
