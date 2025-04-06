@@ -1,4 +1,4 @@
-import { Box, Typography, useScrollTrigger } from "@mui/material";
+import { Box, Button, Typography, useScrollTrigger } from "@mui/material";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import GroupsIcon from "@mui/icons-material/Groups";
 import HowToRegIcon from "@mui/icons-material/HowToReg";
@@ -26,6 +26,7 @@ const Section1 = ({ currentTheme }) => {
           fontWeight={600}
           gutterBottom
           textAlign={"center"}
+          mt={{sx:5,md:0}}
         >
           Are you ready to innovate and solve real-world challenges? Join us at
         </Typography>
@@ -105,6 +106,19 @@ const Section1 = ({ currentTheme }) => {
             </Box>
           ))}
         </Box>
+        <Button
+          variant="contained"
+          sx={{ 
+            p: 5,
+            py:1,
+            borderRadius: 2,
+            mt:3,
+            background: 'linear-gradient(45deg, #1a237e, #3949ab)',
+            boxShadow: '0 4px 10px rgba(26, 35, 126, 0.25)',
+          }}
+        >
+          Register
+        </Button>
       </Box>
     </>
   );

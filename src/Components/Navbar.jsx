@@ -94,7 +94,7 @@ export default function Navbar({ toggleTheme, currentTheme }) {
         variant="h5"
         sx={{
           fontFamily: '"Poppins", sans-serif',
-          fontWeight: 800,
+          fontWeight: 600,
           position: 'relative',
           display: 'inline-block',
           background: trigger 
@@ -114,7 +114,7 @@ export default function Navbar({ toggleTheme, currentTheme }) {
           '&::after': {
             content: '""',
             position: 'absolute',
-            width: '30%',
+            width: '40%',
             height: '3px',
             bottom: '-2px',
             left: '0',
@@ -126,7 +126,7 @@ export default function Navbar({ toggleTheme, currentTheme }) {
           },
         }}
       >
-        Build Bharat
+        Build Bharat Through AI
       </Typography>
     );
   };

@@ -32,7 +32,8 @@ export default function Footer() {
       component="footer"
       sx={{
         bgcolor: 'background.footer',
-        py: { xs: 6, md: 8 },
+        mt:{xs:3},
+        py: { xs: 6, md: 6 },
         color: 'text.primary',
         borderTop: '3px solid',
         borderColor: 'primary.main',
